@@ -49,7 +49,7 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Inicio</a></li>
+                <li><a href="index.html">Inicio</a></li>
                 <li><a href="nosotros.html">Sobre nosotros</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Servicios <span class="caret"></span></a>
@@ -58,7 +58,7 @@
                     <li><a href="#">Servicio2</a></li>
                     <li><a href="#">Servicio3</a></li>
                   </ul>
-                <li><a href="presupuesto.html">Presupuesto</a></li>
+                <li class="active"><a href="presupuesto.html">Presupuesto</a></li>
                 </li>
               </ul>
             </div>
@@ -72,7 +72,7 @@
     <!-- Formulario para presupuesto
      ================================================== -->
 <div class="container">
-<h2 style="display:block; margin-top:60px">Pide tu presupuesto o haznos una pregunta</h2>
+<h2>Pide tu presupuesto o haznos una pregunta</h2>
 <form>
   <fieldset class="form-group">
     <label for="nombre">Nombre del Solicitante</label>
@@ -86,12 +86,13 @@
     <label for="email">Email</label>
     <input type="email" class="form-group" id="email" data-toggle="tooltip" title data-original-title="El email solo se usará para poder atender su petición" data-placement="right">
   </fieldset>
-  <fieldset class="form-group">
-  <label for="exampleSelect1">Tipo de consulta</label>
-    <select class="form-group" id="exampleSelect1">
-      <option>Pregunta</option>
-      <option>Presupuesto</option>
-    </select>
+  <fieldset class="form-group" data-toggle="buttons">
+  <label class="btn btn-primary active">
+    <input type="radio" name="options" id="option1" autocomplete="off" checked> Pregunta
+  </label>
+  <label class="btn btn-primary">
+    <input type="radio" name="options" id="option2" autocomplete="off"> Presupuesto
+  </label>
     </fieldset>
       <fieldset class="form-group">
     <label for="exampleTextarea">Escríbenos</label><br>
