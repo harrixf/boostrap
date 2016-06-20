@@ -51,15 +51,8 @@
               <ul class="nav navbar-nav">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="nosotros.html">Sobre nosotros</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Servicios <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Servicio1</a></li>
-                    <li><a href="#">Servicio2</a></li>
-                    <li><a href="#">Servicio3</a></li>
-                  </ul>
-                <li class="active"><a href="presupuesto.html">Presupuesto</a></li>
-                </li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="presupuesto.html">Presupuesto</a></li>
               </ul>
             </div>
           </div>
@@ -98,8 +91,37 @@
     <label for="exampleTextarea">Escríbenos</label><br>
     <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
   </fieldset>
-  <button type="submit" class="btn btn-default">Enviar</button>
+  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Enviar
+</button>
 </form>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Aceptación de la ley de Protección de Datos</h4>
+      </div>
+      <div class="modal-body">
+        <p></p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas maximus nibh mattis, aliquam libero eu, consectetur lectus. Mauris aliquam sapien nec augue venenatis, aliquam tincidunt metus gravida. Donec porta magna at lacus sollicitudin, vel vestibulum purus egestas. Ut vestibulum laoreet vestibulum. In maximus, ante in volutpat tincidunt, neque enim interdum ligula, ac tincidunt nibh neque pulvinar purus. Sed sit amet tristique nibh. Etiam ornare mattis massa a faucibus. Integer mollis ante ligula. Fusce finibus purus porta tortor cursus iaculis. Praesent dolor lacus, faucibus a justo ac, pretium tincidunt purus. Maecenas blandit placerat fermentum. Praesent cursus nunc eu feugiat fermentum. Phasellus iaculis scelerisque ligula et imperdiet. Vivamus vel iaculis nunc.</p>
+
+<p></p>Etiam hendrerit lectus quis vestibulum gravida. Aenean mattis ex at risus condimentum vulputate. Mauris convallis dapibus euismod. Quisque scelerisque finibus urna quis pharetra. Pellentesque non arcu semper, convallis purus in, pretium lacus. Suspendisse elementum leo quis risus ullamcorper congue. Pellentesque placerat aliquet tristique. Phasellus blandit scelerisque enim, in tristique mauris convallis quis. Morbi scelerisque consequat nisi, at finibus mauris fringilla vel. Aenean suscipit pharetra est non scelerisque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean ultricies tellus a nunc congue tincidunt et id ante. Sed odio massa, pharetra ac blandit id, pulvinar ut purus.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      <footer>
+        <p class="pull-right"><a href="#">Volver arriba</a></p>
+        <p>&copy; 2016 Gastrokontu. &middot; <a href="#">Privacy</a> &middot; <a href="#">Términos y condiciones</a></p>
+      </footer>
+
 </div>
 
 
