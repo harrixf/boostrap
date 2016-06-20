@@ -1276,6 +1276,7 @@ h1,
 h2,
 .h2 {
   font-size: 30px;
+  color: #4B52E6;
 }
 h3,
 .h3 {
@@ -1458,6 +1459,7 @@ dt {
 dd {
   margin-left: 0;
 }
+.cuadrado {list-style-type: square;}
 @media (min-width: 768px) {
   .dl-horizontal dt {
     float: left;
